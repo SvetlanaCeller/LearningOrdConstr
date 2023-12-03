@@ -36,6 +36,6 @@ class UsingIfDemo {
             txt = "Number " + number + " is odd!";
             title = "The even number";
         }
-        JOptionPane.showMessageDialog(null, txt, title, JOptionPane.QUESTION_MESSAGE, img);
+        JOptionPane.showMessageDialog(null, txt, title, JOptionPane.PLAIN_MESSAGE, img);
     }
 }
