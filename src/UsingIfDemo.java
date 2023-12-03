@@ -27,7 +27,7 @@ class UsingIfDemo {
         number = Integer.parseInt(input);
         if (number % 2 == 0) {
             //Создание проекта пиктограммы
-            img = new ImageIcon("c:\\Users\\Профи\\Downloads\\progect_png.png");
+            img = new ImageIcon("c:\\Users\\Профи\\Downloads\\f1f20257-100x100_resize.png");
             txt = "Number " + number + "is even!";
             title = "The even number";
         }
@@ -36,6 +36,6 @@ class UsingIfDemo {
             txt = "Number " + number + " is odd!";
             title = "The even number";
         }
-        JOptionPane.showMessageDialog(null, txt, title, JOptionPane.QUESTION_MESSAGE, img);
+        JOptionPane.showMessageDialog(null, txt, title, JOptionPane.PLAIN_MESSAGE, img);
     }
 }
